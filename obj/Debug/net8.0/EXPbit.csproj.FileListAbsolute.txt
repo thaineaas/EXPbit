@@ -1,0 +1,8 @@
+D:\EXPbit\obj\Debug\net8.0\EXPbit.csproj.AssemblyReference.cache
+D:\EXPbit\obj\Debug\net8.0\EXPbit.GeneratedMSBuildEditorConfig.editorconfig
+D:\EXPbit\obj\Debug\net8.0\EXPbit.AssemblyInfoInputs.cache
+D:\EXPbit\obj\Debug\net8.0\EXPbit.AssemblyInfo.cs
+D:\EXPbit\obj\Debug\net8.0\EXPbit.csproj.CoreCompileInputs.cache
+D:\EXPbit\obj\Debug\net8.0\EXPbit.MvcApplicationPartsAssemblyInfo.cache
+D:\EXPbit\obj\Debug\net8.0\EXPbit.RazorAssemblyInfo.cache
+D:\EXPbit\obj\Debug\net8.0\EXPbit.RazorAssemblyInfo.cs

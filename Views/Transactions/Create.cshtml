@@ -1,0 +1,36 @@
+@model Transaction
+
+<form asp-action="Create" method="post">
+    <div class="form-group">
+        <label>Sender</label>
+        <input asp-for="Sender" class="form-control" />
+    </div>
+    <div class="form-group">
+        <label>Receiver</label>
+        <input asp-for="Receiver" class="form-control" />
+    </div>
+    <div class="form-group">
+        <label>Origin Country</label>
+        <input asp-for="OriginCountry" class="form-control" />
+    </div>
+    <div class="form-group">
+        <label>Destination Country</label>
+        <input asp-for="DestinationCountry" class="form-control" />
+    </div>
+    <div class="form-group">
+        <label>Amount Sent</label>
+        <input asp-for="AmountSent" class="form-control" />
+    </div>
+    <div class="form-group">
+        <label>Currency Sent</label>
+        <select asp-for="CurrencySent" class="form-control">
+            <option>USD</option>
+            <option>BTC</option>
+        </select>
+    </div>
+    <div class="form-group">
+        <label>Exchange Rate</label>
+        <input asp-for="ExchangeRate" class="form-control" />
+    </div>
+    <button type="submit" class="btn btn-primary">Submit</button>
+</form>

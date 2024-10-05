@@ -1,0 +1,33 @@
+@model IEnumerable<Transaction>
+
+<h2>Transactions</h2>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>Sender</th>
+            <th>Receiver</th>
+            <th>Amount Sent</th>
+            <th>Currency Sent</th>
+            <th>Amount Received</th>
+            <th>Currency Received</th>
+            <th>Status</th>
+            <th>Date</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var transaction in Model)
+        {
+            <tr>
+                <td>@transaction.Sender</td>
+                <td>@transaction.Receiver</td>
+                <td>@transaction.AmountSent</td>
+                <td>@transaction.CurrencySent</td>
+                <td>@transaction.AmountReceived</td>
+                <td>@transaction.CurrencyReceived</td>
+                <td>@transaction.Status</td>
+                <td>@transaction.TransactionDate.ToShortDateString()</td>
+            </tr>
+        }
+    </tbody>
+</table>
